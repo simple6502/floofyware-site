@@ -1,0 +1,14 @@
+{
+   "posts": [
+     {
+       "type": "Research",
+       "id": "floofyware-research-intro",
+       "title": "Introducing Floofyware Research - An Independent AI Research Initiative",
+       "date": "September 26th, 2024",
+       "author": "Nathan Beaudoin",
+       "summary": "Today, I am excited to announce Floofyware Research, my personal independent AI research initiative for training capable AI models on compute-limited hardware.",
+       "content": "Over the past two years, I have experimented with various AI models, including large language models ranging from GPT-J to the current LLaMA 3.1 models. During this time, I wondered what it would be like to train my own models from scratch using my own hardware. There were numerous resources and models available with a similar idea, but almost all of them were either toy models, trained on outrageously expensive hardware, or trained using cloud compute.<br><br>I wanted to take a step in a direction that has not been investigated much: the training of semi-powerful AI models using very little computing power, opting for algorithmic improvements rather than scale in terms of both model size and dataset size.<br><br>With all that in mind, I decided to start these independent blogs for both personal and research use to document my findings and share them with the open-source community. I believe that semi-powerful general models can now be created with very limited computing power, achieving performance comparable to some models trained with significantly more computing power just 1-2 years ago.<br><br>I will be using my personal workstation, which consists of 128GBs of DDR4 2600MHz RAM, an Intel Xeon E5-2699A v4 CPU, and two EVGA 3090s without NVLINK. This setup was the most cost-effective option for me, given my limited budget. It has been gradually upgraded from a less powerful PC over about three years, costing around $2,500. While not ideal, I am eager to work around the limitations of my system to learn how much I can achieve with this setup and demonstrate that great models can be trained purely at home with a signle decent workstation computer.<br><br>My first research project, a multi-billion parameter large language model that I will then further expand on with different techniques, has been progressing well. I have been learning a lot about working within the constraints of my computing power and I plan to share more information about this project as I finalize the details for training.<br><br>Keep a look out!",
+       "imageUrl": "./assets/main/logo.jpg"
+     }
+   ]
+ }
