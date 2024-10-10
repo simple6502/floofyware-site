@@ -209,10 +209,14 @@ footer {
 /* Latest Posts Styles */
 .latest-posts {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 30px;
     margin-top: 20px;
-    flex-wrap: wrap;
+}
+
+.latest-post {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .latest-post h2 {
@@ -256,10 +260,6 @@ footer {
     }
     .about-images {
         flex-direction: row;
-        align-items: center;
-    }
-    .latest-posts {
-        flex-direction: column;
         align-items: center;
     }
     .latest-post {
